@@ -8,7 +8,7 @@ public class Car {
 	String color;
 	int maxSpeed;
 	//2.생성자
-	
+	////
 	
 	/* 
 	 * 생성자 오버로딩
