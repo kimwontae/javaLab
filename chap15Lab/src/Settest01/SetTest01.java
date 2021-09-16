@@ -14,7 +14,7 @@ import java.util.Set;
 				s.add(r.nextInt(45)+1);
 			}
 			
-			System.out.println(s);
+			System.out.println(s.toString());
 		}
 }
 
