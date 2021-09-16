@@ -15,10 +15,10 @@ public class VectorExample {
 		list.add(new Board("재목4", "내용4", "글쓴이4"));
 		list.add(new Board("재목5", "내용5", "글쓴이5"));
 		
-		list.remove(2);
-		list.remove(3);
-		
-		for(int i=0;i<list.size();i++) {
+		//list.remove(2);
+		//list.remove(3);
+		//int j=list.size();
+		for(int i=0;i<3;i++) {
 			Board board = list.get(i);
 			System.out.println(board.subject+"\t"+board.content+"\t"+board.writer);
 		}
