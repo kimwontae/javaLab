@@ -68,7 +68,7 @@ public class BoardSVC {
 							
 							boardList.remove(i);
 							System.out.println("삭제완료");
-							break;
+							i--; //배열이 삭제되면 다음열이 현재의 열로 되기때문에 한번더 체크하기 위해서 i값을 빼준다.
 							}	
 						}
 					
