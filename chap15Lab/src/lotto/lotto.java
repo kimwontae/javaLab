@@ -1,10 +1,10 @@
-package Settest01;
+package lotto;
 import java.util.HashSet; 
 import java.util.Random; 
 import java.util.Set;
 
 
-	public class SetTest01 {
+	public class lotto {
 		public static void main(String[] args) { 
 			//int[] n;
 			Set s = new HashSet(); 
